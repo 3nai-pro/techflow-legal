@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TechFlow Terms and Conditions — software licence, acceptable use, limitation of liability, and governing law." />
+  <title>Terms &amp; Conditions — TechFlow</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:       #1a2744;
+      --navy-mid:   #253660;
+      --primary:    #3b82f6;
+      --primary-dk: #2563eb;
+      --text:       #1e293b;
+      --muted:      #64748b;
+      --border:     #e2e8f0;
+      --surface:    #f8fafc;
+      --white:      #ffffff;
+      --radius:     8px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--white);
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--navy);
+      color: var(--white);
+      padding: 0 24px;
+    }
+    .header-inner {
+      max-width: 820px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+    }
+    .logo-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--white);
+    }
+    .logo-wordmark {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    header nav a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.85rem;
+      margin-left: 20px;
+      transition: color 0.15s;
+    }
+    header nav a:hover { color: var(--white); }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+      color: var(--white);
+      padding: 56px 24px 48px;
+      text-align: center;
+    }
+    .hero-tag {
+      display: inline-block;
+      background: rgba(59,130,246,0.25);
+      color: #93c5fd;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+    .hero-meta {
+      color: rgba(255,255,255,0.65);
+      font-size: 0.9rem;
+    }
+
+    /* ── Layout ── */
+    .content-wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    /* ── Sections ── */
+    section { margin-bottom: 48px; }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--navy);
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy-mid);
+      margin: 24px 0 8px;
+    }
+
+    p { margin-bottom: 14px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul, ol {
+      padding-left: 24px;
+      margin-bottom: 14px;
+    }
+    li { margin-bottom: 6px; }
+
+    strong { color: var(--text); font-weight: 600; }
+    a { color: var(--primary-dk); }
+    a:hover { color: var(--primary); }
+
+    /* ── Warning box ── */
+    .warn-box {
+      background: #fefce8;
+      border: 1px solid #fde047;
+      border-radius: var(--radius);
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 0.9rem;
+    }
+    .warn-box::before { content: "⚠️  "; }
+
+    /* ── Highlight box (e.g. governing law) ── */
+    .info-box {
+      background: #eff6ff;
+      border-left: 4px solid var(--primary);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+
+    /* ── Legal disclaimer block ── */
+    .disclaimer-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 22px;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.6);
+      text-align: center;
+      padding: 28px 24px;
+      font-size: 0.85rem;
+    }
+    footer a { color: rgba(255,255,255,0.8); }
+    footer .footer-links { margin-bottom: 8px; }
+    footer .footer-links a { margin: 0 10px; }
+
+    @media (max-width: 600px) {
+      .header-inner nav { display: none; }
+      .hero { padding: 40px 20px 36px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="logo-link" href="https://3nai-pro.github.io/techflow-legal/">
+      <span class="logo-wordmark">TechFlow</span>
+    </a>
+    <nav>
+      <a href="https://3nai-pro.github.io/techflow-legal/">Home</a>
+      <a href="https://3nai-pro.github.io/techflow-legal/privacy-policy">Privacy Policy</a>
+      <a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">Terms &amp; Conditions</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-tag">Legal</div>
+  <h1>Terms &amp; Conditions</h1>
+  <p class="hero-meta">TechFlow &mdash; Field Service Management &nbsp;&middot;&nbsp; Effective 28 July 2026</p>
+</div>
+
+<div class="content-wrap">
+
+  <!-- 1. Acceptance -->
+  <section id="acceptance">
+    <h2>1. Acceptance of Terms</h2>
+    <p>By downloading, installing, or using TechFlow (the "Application"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, do not install or use the Application.</p>
+    <p>These Terms constitute a legally binding agreement between you ("User", "you") and <strong>Chill Tech Services</strong> ("we", "us", "the Developer"), the publisher of TechFlow.</p>
+  </section>
+
+  <!-- 2. Description -->
+  <section id="description">
+    <h2>2. Description of the Application</h2>
+    <p>TechFlow is a field-service management application for mobile technicians and small service businesses. It allows users to manage clients, jobs, invoices, payments, quotations, and inventory entirely on their device, without requiring an internet connection, a user account, or any subscription for core functionality.</p>
+  </section>
+
+  <!-- 3. Licence -->
+  <section id="licence">
+    <h2>3. Software Licence</h2>
+    <h3>3.1 Grant of licence</h3>
+    <p>Subject to your compliance with these Terms, Chill Tech Services grants you a limited, non-exclusive, non-transferable, revocable licence to download, install, and use the Application on a device that you own or control, solely for your personal or internal business purposes.</p>
+
+    <h3>3.2 Restrictions</h3>
+    <p>You may not:</p>
+    <ul>
+      <li>Copy, modify, adapt, translate, or create derivative works of the Application;</li>
+      <li>Reverse engineer, disassemble, decompile, or otherwise attempt to extract the source code of the Application, except to the extent expressly permitted by applicable law;</li>
+      <li>Sell, sublicense, rent, lease, transfer, or otherwise distribute the Application or any rights thereto to any third party;</li>
+      <li>Remove or alter any proprietary notices, labels, or marks on the Application;</li>
+      <li>Use the Application in any manner that violates applicable law or regulation;</li>
+      <li>Use the Application for any commercial purpose other than managing your own business records, unless you have obtained written permission from Chill Tech Services.</li>
+    </ul>
+
+    <h3>3.3 Open-source components</h3>
+    <p>The Application incorporates third-party open-source libraries. A complete list of these libraries, their licences, and any required attribution notices is provided in the <code>THIRD_PARTY_LICENSES.md</code> and <code>NOTICE.md</code> files included in each source release of the Application. Your use of those components is subject to their respective licences.</p>
+  </section>
+
+  <!-- 4. IP -->
+  <section id="intellectual-property">
+    <h2>4. Intellectual Property</h2>
+    <p>The Application, including its name ("TechFlow"), its logo, user interface, design, source code, and all content created by Chill Tech Services, is the exclusive intellectual property of Chill Tech Services and is protected by applicable copyright, trademark, and other intellectual property laws.</p>
+    <p>Nothing in these Terms transfers any intellectual property rights to you. The limited licence granted in Section 3 does not constitute a sale of the Application or any portion thereof.</p>
+    <p>All business data that you enter into the Application (client records, invoices, etc.) remains your property. Chill Tech Services claims no ownership over your business data.</p>
+  </section>
+
+  <!-- 5. Acceptable Use -->
+  <section id="acceptable-use">
+    <h2>5. Acceptable Use</h2>
+    <p>You agree to use the Application only for lawful purposes and in a manner consistent with all applicable local, national, and international laws and regulations.</p>
+    <p>You agree not to use the Application to:</p>
+    <ul>
+      <li>Store, process, or transmit information that is unlawful, harmful, fraudulent, or deceptive;</li>
+      <li>Infringe the rights of any third party, including intellectual property rights or rights of privacy;</li>
+      <li>Impersonate any person or entity or misrepresent your affiliation with any person or entity;</li>
+      <li>Interfere with or disrupt the integrity of the Application or any data stored within it.</li>
+    </ul>
+  </section>
+
+  <!-- 6. Backup -->
+  <section id="backup-responsibility">
+    <h2>6. Backup Responsibility</h2>
+    <p>TechFlow stores all business data exclusively on your device. <strong>You are solely responsible for creating and maintaining regular backups of your data.</strong></p>
+    <p>Chill Tech Services cannot recover data lost as a result of:</p>
+    <ul>
+      <li>Device loss, theft, or damage;</li>
+      <li>Uninstallation of the Application;</li>
+      <li>A factory reset or operating-system reinstallation;</li>
+      <li>Operating-system or hardware failure;</li>
+      <li>User error (accidental deletion of records);</li>
+      <li>Failure to create backups before performing any of the above.</li>
+    </ul>
+    <div class="warn-box">
+      The Application provides a Backup &amp; Restore feature (Settings &rarr; Backup &amp; Restore). It is your responsibility to use this feature regularly and to store your backup files in a secure location outside your device. Current backup files are <strong>not encrypted</strong>.
+    </div>
+  </section>
+
+  <!-- 7. Disclaimer -->
+  <section id="disclaimer">
+    <h2>7. Disclaimer of Warranties</h2>
+    <div class="disclaimer-block">
+      <p><strong>The Application is provided "as is" and "as available", without warranty of any kind, express or implied.</strong></p>
+      <p>To the maximum extent permitted by applicable law, Chill Tech Services expressly disclaims all warranties, including but not limited to:</p>
+      <ul>
+        <li>Implied warranties of merchantability, fitness for a particular purpose, and non-infringement;</li>
+        <li>That the Application will meet your specific requirements;</li>
+        <li>That the Application will be error-free, uninterrupted, or free of bugs or security vulnerabilities;</li>
+        <li>That any errors in the Application will be corrected;</li>
+        <li>That the results obtained from using the Application will be accurate or reliable.</li>
+      </ul>
+      <p style="margin-top:10px">You assume all risk associated with the use of the Application and with the quality, accuracy, and completeness of any information or business records managed through it.</p>
+    </div>
+  </section>
+
+  <!-- 8. Limitation of Liability -->
+  <section id="limitation-of-liability">
+    <h2>8. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, Chill Tech Services and its affiliates, officers, employees, agents, and licensors shall not be liable for:</p>
+    <ul>
+      <li>Any indirect, incidental, special, consequential, or punitive damages;</li>
+      <li>Any loss of profits, revenue, data, business, or goodwill;</li>
+      <li>Any loss of or damage to business records, invoices, client data, or other data stored in the Application, whether caused by device failure, user error, uninstallation, or any other reason;</li>
+      <li>Any damages arising from your reliance on information generated by the Application (including invoices, quotations, or financial summaries).</li>
+    </ul>
+    <p>This limitation applies regardless of the legal theory on which the claim is based (contract, tort, statutory liability, or otherwise) and even if Chill Tech Services has been advised of the possibility of such damages.</p>
+    <p>Where applicable law does not permit the complete exclusion of implied warranties or the limitation of incidental or consequential damages, the above limitations shall apply to the fullest extent permitted.</p>
+  </section>
+
+  <!-- 9. Indemnification -->
+  <section id="indemnification">
+    <h2>9. Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless Chill Tech Services and its affiliates from and against any claims, liabilities, damages, losses, costs, and expenses (including reasonable legal fees) arising out of or in connection with your use of the Application, your violation of these Terms, or your violation of any applicable law or regulation.</p>
+  </section>
+
+  <!-- 10. Third Parties -->
+  <section id="third-party">
+    <h2>10. Third-Party Applications and Services</h2>
+    <p>The Application may interact with third-party applications installed on your device (such as your default calendar, contacts, or messaging applications) when you explicitly initiate such interactions. These third-party applications are governed by their own terms and privacy policies. Chill Tech Services is not responsible for the practices or content of any third-party application.</p>
+  </section>
+
+  <!-- 11. Updates -->
+  <section id="updates">
+    <h2>11. Updates and Modifications</h2>
+    <p>Chill Tech Services reserves the right to:</p>
+    <ul>
+      <li>Release updates, patches, and new versions of the Application at any time;</li>
+      <li>Modify, suspend, or discontinue the Application or any feature thereof, with or without notice;</li>
+      <li>Update these Terms at any time, with the updated version taking effect upon publication in a new Application release.</li>
+    </ul>
+    <p>If you do not agree with a modification to these Terms, you must stop using the Application.</p>
+  </section>
+
+  <!-- 12. Termination -->
+  <section id="termination">
+    <h2>12. Termination</h2>
+    <p>These Terms are effective from the date you first install or use the Application and remain in effect until terminated. Chill Tech Services may terminate your licence to use the Application immediately and without notice if you breach any provision of these Terms.</p>
+    <p>Sections 4 (Intellectual Property), 7 (Disclaimer of Warranties), 8 (Limitation of Liability), 9 (Indemnification), and 13 (Governing Law) survive termination.</p>
+  </section>
+
+  <!-- 13. Governing Law -->
+  <section id="governing-law">
+    <h2>13. Governing Law and Jurisdiction</h2>
+    <div class="info-box">
+      These Terms are governed by and construed in accordance with the laws of <strong>France</strong>, without regard to its conflict-of-law provisions. Any dispute arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the competent courts of France, unless mandatory consumer protection laws in your country of residence require otherwise.
+    </div>
+  </section>
+
+  <!-- 14. Severability -->
+  <section id="severability">
+    <h2>14. Severability</h2>
+    <p>If any provision of these Terms is found to be invalid, illegal, or unenforceable, the remaining provisions shall continue in full force and effect.</p>
+  </section>
+
+  <!-- 15. Entire Agreement -->
+  <section id="entire-agreement">
+    <h2>15. Entire Agreement</h2>
+    <p>These Terms, together with the Privacy Policy, constitute the entire agreement between you and Chill Tech Services with respect to the Application and supersede all prior understandings, agreements, representations, or warranties.</p>
+  </section>
+
+  <!-- 16. Contact -->
+  <section id="contact">
+    <h2>16. Contact</h2>
+    <p>If you have any questions about these Terms and Conditions, please contact us:</p>
+    <p>
+      <strong>Chill Tech Services</strong><br />
+      Email: <a href="mailto:techflowlb@outlook.com">techflowlb@outlook.com</a><br />
+      Website: <a href="https://3nai-pro.github.io/techflow-legal/">https://3nai-pro.github.io/techflow-legal/</a>
+    </p>
+  </section>
+
+</div><!-- /content-wrap -->
+
+<footer>
+  <div class="footer-links">
+    <a href="https://3nai-pro.github.io/techflow-legal/">Home</a>
+    <a href="https://3nai-pro.github.io/techflow-legal/privacy-policy">Privacy Policy</a>
+    <a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">Terms &amp; Conditions</a>
+    <a href="mailto:techflowlb@outlook.com">Contact</a>
+  </div>
+  <div>&copy; 2026 Chill Tech Services &mdash; TechFlow &middot; Your business assistant. Always in flow.</div>
+</footer>
+
+</body>
+</html>
