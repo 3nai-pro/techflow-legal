@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TechFlow legal documents — Privacy Policy and Terms &amp; Conditions for the TechFlow field service management app." />
+  <title>Legal — TechFlow</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:       #1a2744;
+      --navy-mid:   #253660;
+      --primary:    #3b82f6;
+      --primary-dk: #2563eb;
+      --text:       #1e293b;
+      --muted:      #64748b;
+      --border:     #e2e8f0;
+      --surface:    #f8fafc;
+      --white:      #ffffff;
+      --radius:     10px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--white);
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--navy);
+      color: var(--white);
+      padding: 0 24px;
+    }
+    .header-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+    }
+    .logo-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--white);
+    }
+    .logo-wordmark {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    header nav a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.85rem;
+      margin-left: 20px;
+      transition: color 0.15s;
+    }
+    header nav a:hover { color: var(--white); }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+      color: var(--white);
+      padding: 72px 24px 64px;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(59,130,246,0.2);
+      border: 1px solid rgba(59,130,246,0.35);
+      color: #93c5fd;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 800;
+      margin-bottom: 16px;
+      line-height: 1.15;
+    }
+    .hero h1 span { color: #93c5fd; }
+    .hero-sub {
+      color: rgba(255,255,255,0.7);
+      font-size: 1.05rem;
+      max-width: 520px;
+      margin: 0 auto 32px;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.8);
+      font-size: 0.8rem;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin: 4px;
+    }
+
+    /* ── Features strip ── */
+    .features-strip {
+      background: var(--navy-mid);
+      padding: 20px 24px;
+      overflow-x: auto;
+    }
+    .features-strip-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .feature-pill {
+      color: rgba(255,255,255,0.75);
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+    .feature-pill .dot {
+      width: 6px; height: 6px;
+      background: #4ade80;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ── Content ── */
+    .content-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .section-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .section-desc {
+      color: var(--muted);
+      margin-bottom: 36px;
+      font-size: 0.95rem;
+    }
+
+    /* ── Document cards ── */
+    .doc-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 60px;
+    }
+    @media (max-width: 640px) { .doc-grid { grid-template-columns: 1fr; } }
+
+    .doc-card {
+      display: block;
+      text-decoration: none;
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    }
+    .doc-card:hover {
+      border-color: var(--primary);
+      box-shadow: 0 4px 20px rgba(59,130,246,0.12);
+      transform: translateY(-2px);
+    }
+    .doc-icon {
+      width: 44px; height: 44px;
+      background: #eff6ff;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 16px;
+    }
+    .doc-card h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .doc-card p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.55;
+      margin-bottom: 20px;
+    }
+    .doc-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--primary-dk);
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .doc-link::after { content: " →"; }
+
+    /* ── Info section ── */
+    .info-section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+      margin-bottom: 40px;
+    }
+    .info-section h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 16px;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 32px;
+    }
+    @media (max-width: 560px) { .info-grid { grid-template-columns: 1fr; } }
+    .info-row { display: flex; flex-direction: column; gap: 2px; }
+    .info-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .info-value { font-size: 0.9rem; color: var(--text); }
+    .info-value a { color: var(--primary-dk); text-decoration: none; }
+    .info-value a:hover { text-decoration: underline; }
+
+    /* ── Contact ── */
+    .contact-section { text-align: center; }
+    .contact-section h2 { font-size: 1.25rem; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+    .contact-section p { color: var(--muted); margin-bottom: 20px; font-size: 0.95rem; }
+    .contact-btn {
+      display: inline-block;
+      background: var(--primary);
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 12px 28px;
+      border-radius: 8px;
+      transition: background 0.15s;
+    }
+    .contact-btn:hover { background: var(--primary-dk); }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.6);
+      text-align: center;
+      padding: 28px 24px;
+      font-size: 0.85rem;
+    }
+    footer a { color: rgba(255,255,255,0.8); }
+    footer .footer-links { margin-bottom: 8px; }
+    footer .footer-links a { margin: 0 10px; }
+
+    @media (max-width: 600px) {
+      .header-inner nav { display: none; }
+      .hero { padding: 52px 20px 48px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="logo-link" href="https://3nai-pro.github.io/techflow-legal/">
+      <img src="assets/techflow-logo-light.png" alt="TechFlow" height="30" style="display:block;" />
+    </a>
+    <nav>
+      <a href="https://3nai-pro.github.io/techflow-legal/privacy-policy">Privacy Policy</a>
+      <a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">Terms &amp; Conditions</a>
+      <a href="mailto:techflowlb@outlook.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-eyebrow">Legal &amp; Privacy</div>
+  <h1>TechFlow<br /><span>Legal Documents</span></h1>
+  <p class="hero-sub">Everything you need to know about how TechFlow handles your data and what governs your use of the app.</p>
+  <div>
+    <span class="hero-badge">📱 Android &amp; iOS</span>
+    <span class="hero-badge">🔒 Offline-first</span>
+    <span class="hero-badge">🚫 No tracking</span>
+    <span class="hero-badge">🇫🇷 French law</span>
+  </div>
+</div>
+
+<div class="features-strip">
+  <div class="features-strip-inner">
+    <span class="feature-pill"><span class="dot"></span> No user accounts</span>
+    <span class="feature-pill"><span class="dot"></span> No cloud sync</span>
+    <span class="feature-pill"><span class="dot"></span> No analytics</span>
+    <span class="feature-pill"><span class="dot"></span> No advertising</span>
+    <span class="feature-pill"><span class="dot"></span> No telemetry</span>
+    <span class="feature-pill"><span class="dot"></span> Data stays on your device</span>
+  </div>
+</div>
+
+<div class="content-wrap">
+
+  <div class="section-label">Documents</div>
+  <div class="section-title">Legal Resources</div>
+  <p class="section-desc">Read our Privacy Policy and Terms &amp; Conditions before using TechFlow.</p>
+
+  <div class="doc-grid">
+    <a class="doc-card" href="https://3nai-pro.github.io/techflow-legal/privacy-policy">
+      <div class="doc-icon">🛡️</div>
+      <h3>Privacy Policy</h3>
+      <p>How your data is stored locally on your device, which permissions the app uses, how backups work, and your rights under applicable data protection law.</p>
+      <span class="doc-link">Read Privacy Policy</span>
+    </a>
+    <a class="doc-card" href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">
+      <div class="doc-icon">📄</div>
+      <h3>Terms &amp; Conditions</h3>
+      <p>The software licence, acceptable use policy, limitation of liability, backup responsibility, and governing law for your use of TechFlow.</p>
+      <span class="doc-link">Read Terms &amp; Conditions</span>
+    </a>
+  </div>
+
+  <div class="info-section">
+    <h2>About TechFlow</h2>
+    <div class="info-grid">
+      <div class="info-row">
+        <span class="info-label">Application</span>
+        <span class="info-value">TechFlow — Field Service Management</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Publisher</span>
+        <span class="info-value">TechFlow</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Platforms</span>
+        <span class="info-value">Android &amp; iOS</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Governing Law</span>
+        <span class="info-value">France</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Support</span>
+        <span class="info-value"><a href="mailto:techflowlb@outlook.com">techflowlb@outlook.com</a></span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Documents effective</span>
+        <span class="info-value">28 July 2026</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-section">
+    <h2>Questions?</h2>
+    <p>If you have any questions about these documents or how TechFlow handles your data, get in touch.</p>
+    <a class="contact-btn" href="mailto:techflowlb@outlook.com">Contact TechFlow</a>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="https://3nai-pro.github.io/techflow-legal/">Home</a>
+    <a href="https://3nai-pro.github.io/techflow-legal/privacy-policy">Privacy Policy</a>
+    <a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">Terms &amp; Conditions</a>
+    <a href="mailto:techflowlb@outlook.com">Contact</a>
+  </div>
+  <div>&copy; 2026 TechFlow &mdash; TechFlow &middot; Your business assistant. Always in flow.</div>
+</footer>
+
+</body>
+</html>
