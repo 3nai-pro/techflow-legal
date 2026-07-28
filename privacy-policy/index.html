@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="TechFlow Privacy Policy — how your data is stored, protected, and managed." />
-  <title>Privacy Policy — TechFlow</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="TechFlow Privacy Policy — how your data is stored, protected, and managed." name="description"/>
+<title>Privacy Policy — TechFlow</title>
+<style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
@@ -212,227 +213,40 @@
       .hero { padding: 40px 20px 36px; }
     }
   </style>
-</head>
+<link href="https://3nai-pro.github.io/techflow-legal/privacy-policy" rel="canonical"/></head>
 <body>
-
 <header>
-  <div class="header-inner">
-    <a class="logo-link" href="https://3nai-pro.github.io/techflow-legal/">
-      <img src="../assets/techflow-logo-light.png" alt="TechFlow" height="30" style="display:block;" />
-    </a>
-    <nav>
-      <a href="https://3nai-pro.github.io/techflow-legal/">Home</a>
-      <a href="https://3nai-pro.github.io/techflow-legal/privacy-policy">Privacy Policy</a>
-      <a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">Terms &amp; Conditions</a>
-    </nav>
-  </div>
-</header>
-
-<div class="hero">
-  <div class="hero-tag">Legal</div>
-  <h1>Privacy Policy</h1>
-  <p class="hero-meta">TechFlow &mdash; Field Service Management &nbsp;&middot;&nbsp; Effective 28 July 2026</p>
+<div class="header-inner">
+<a class="logo-link" href="https://3nai-pro.github.io/techflow-legal/">
+<img alt="TechFlow" height="30" src="../assets/techflow-logo-light.png" style="display:block;"/>
+</a>
+<nav><a href="https://3nai-pro.github.io/techflow-legal/">Home</a><a href="https://3nai-pro.github.io/techflow-legal/privacy-policy">Privacy Policy</a><a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">Terms &amp; Conditions</a><a href="https://3nai-pro.github.io/techflow-legal/legal-notice">Legal Notice</a></nav>
 </div>
-
+</header>
+<div class="hero">
+<div class="hero-tag">Legal</div>
+<h1>Privacy Policy</h1>
+<p class="hero-meta">TechFlow — Field Service Management  ·  Effective 28 July 2026</p>
+</div>
 <div class="content-wrap">
-
-  <div class="intro-banner">
-    <strong>TechFlow is privacy-first.</strong> The Application has no server backend, no user accounts,
-    no analytics, no advertising, and no telemetry. All your business data is stored exclusively on your device.
-  </div>
-
-  <!-- 1. Introduction -->
-  <section id="introduction">
-    <h2>1. Introduction</h2>
-    <p>TechFlow ("the Application", "we", "us") is a field-service management application designed for mobile technicians and small service businesses. It is published by <strong>TechFlow</strong> and is available on Android and iOS.</p>
-    <p>TechFlow is built on a <strong>privacy-first, offline-first</strong> architecture. The Application has no server backend, no user accounts, no cloud synchronisation, no analytics, no advertising, and no telemetry of any kind. All business data is stored exclusively on your device.</p>
-    <p>This Privacy Policy explains what data TechFlow stores, where that data resides, which device permissions the Application requests, how user-initiated backups are handled, and what rights you have over your information.</p>
-  </section>
-
-  <!-- 2. Data Stored -->
-  <section id="data-stored">
-    <h2>2. Data Stored by the Application</h2>
-    <p>TechFlow stores the following categories of data locally on your device:</p>
-
-    <h3>2.1 Business records</h3>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th>Category</th><th>Examples</th></tr></thead>
-        <tbody>
-          <tr><td>Clients</td><td>Name, address, phone number, email address, notes</td></tr>
-          <tr><td>Interventions / Jobs</td><td>Description, date, linked client, labour hours, status</td></tr>
-          <tr><td>Invoices</td><td>Line items, amounts, VAT, payment status</td></tr>
-          <tr><td>Payments</td><td>Amount received, date, method, linked invoice</td></tr>
-          <tr><td>Quotations</td><td>Items, pricing, linked client, status</td></tr>
-          <tr><td>Inventory</td><td>Item names, quantities, unit prices</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <h3>2.2 Application settings</h3>
-    <ul>
-      <li>Company profile (name, address, VAT number, logo)</li>
-      <li>Invoice and quotation numbering preferences</li>
-      <li>Currency and VAT rate preferences</li>
-      <li>Notification preferences</li>
-      <li>Display and theme preferences</li>
-    </ul>
-
-    <h3>2.3 Data the Application does not collect</h3>
-    <p>TechFlow does <strong>not</strong> collect, transmit, or process any of the following:</p>
-    <ul>
-      <li>Device identifiers (IMEI, advertising ID, etc.)</li>
-      <li>Location data</li>
-      <li>Browsing history</li>
-      <li>Crash reports or diagnostics sent to a remote server</li>
-      <li>Usage analytics or behavioural data</li>
-      <li>Any data from third-party advertising networks</li>
-    </ul>
-  </section>
-
-  <!-- 3. Where Data Is Stored -->
-  <section id="data-location">
-    <h2>3. Where Data Is Stored</h2>
-    <p>All data entered into TechFlow is stored exclusively in the <strong>local storage of your device</strong> using the React Native AsyncStorage system. This data:</p>
-    <ul>
-      <li>Never leaves your device unless you explicitly initiate a backup export (see Section 5)</li>
-      <li>Is not accessible to TechFlow or any third party</li>
-      <li>Is not synchronised to any cloud service by the Application</li>
-    </ul>
-    <p>The data is stored in the Application's private sandbox on your device, in accordance with the security model enforced by Android and iOS. Other applications cannot access TechFlow's stored data.</p>
-  </section>
-
-  <!-- 4. Permissions -->
-  <section id="permissions">
-    <h2>4. Device Permissions</h2>
-    <p>TechFlow may request the following device permissions. All permissions are optional; the core functionality of the Application operates without any of them.</p>
-
-    <div class="permission-card">
-      <h3>Contacts (optional)</h3>
-      <div class="permission-tag">READ_CONTACTS &middot; Contacts access (iOS)</div>
-      <p><strong>Purpose:</strong> To allow you to import a client's name and phone number directly from your device's address book when creating a new client record. Contact data imported this way is stored locally; no contact data is transmitted externally.</p>
-      <p><strong>When requested:</strong> Only when you tap "Import from contacts". You may decline and enter client details manually.</p>
-    </div>
-
-    <div class="permission-card">
-      <h3>Calendar (optional)</h3>
-      <div class="permission-tag">READ_CALENDAR &middot; WRITE_CALENDAR &middot; Calendar access (iOS)</div>
-      <p><strong>Purpose:</strong> To allow you to add a job or intervention as an event in your device's calendar application. Calendar events are created directly on your device; no calendar data is transmitted externally.</p>
-      <p><strong>When requested:</strong> Only when you tap "Add to calendar" on a job or intervention.</p>
-    </div>
-
-    <div class="permission-card">
-      <h3>Notifications (optional)</h3>
-      <div class="permission-tag">POST_NOTIFICATIONS (Android 13+) &middot; Notification authorisation (iOS)</div>
-      <p><strong>Purpose:</strong> To deliver local, on-device reminders about upcoming interventions or unpaid work. Notifications are scheduled and delivered entirely on your device; no notification content is transmitted to any server.</p>
-      <p><strong>When requested:</strong> When you enable notification reminders in Settings.</p>
-    </div>
-
-    <div class="permission-card">
-      <h3>Storage / File access (implicit)</h3>
-      <p><strong>Purpose:</strong> To read and write the backup files that you choose to export or import. File access is limited to files you explicitly select via the system file picker. TechFlow does not perform background file scans.</p>
-    </div>
-  </section>
-
-  <!-- 5. Backups -->
-  <section id="backups">
-    <h2>5. Backups and Exported Files</h2>
-    <p>TechFlow includes a Backup &amp; Restore feature. All backup operations are <strong>entirely user-initiated</strong>:</p>
-    <ul>
-      <li><strong>Creating a backup:</strong> Export a complete backup of your data as a file (JSON format) via Settings &rarr; Backup &amp; Restore &rarr; Create Backup. The file is saved to a location of your choosing using the system share sheet.</li>
-      <li><strong>Restoring a backup:</strong> Import a previously exported backup file at any time.</li>
-      <li><strong>Integrity:</strong> Backup files are protected by a SHA-256 integrity checksum. The Application will refuse to restore a file whose checksum does not match.</li>
-    </ul>
-    <div class="warn-box">
-      Current backup files are <strong>not encrypted</strong>. The content of a backup file is readable by anyone who obtains it. Store backup files securely (for example, in a password-protected folder or a cloud storage service with access controls).
-    </div>
-    <p>Backup files are not transmitted to TechFlow or any server. Where you choose to store your backup file is governed by the privacy policy of that service, not by this Privacy Policy.</p>
-  </section>
-
-  <!-- 6. Third Parties -->
-  <section id="third-parties">
-    <h2>6. Third-Party Services</h2>
-    <p>TechFlow does not integrate with any third-party analytics, advertising, or data-processing services.</p>
-    <p>The Application may open third-party applications installed on your device (such as WhatsApp or your default calendar application) when you explicitly initiate such interactions. These are governed by the privacy policies of those applications. TechFlow does not share data with those applications beyond what you explicitly initiate.</p>
-    <p>PDF generation and Excel import/export are processed entirely on-device using open-source libraries. No documents leave your device unless you share them yourself via the system share sheet.</p>
-  </section>
-
-  <!-- 7. Data Retention -->
-  <section id="retention">
-    <h2>7. Data Retention and Deletion</h2>
-    <p>All data stored by TechFlow remains on your device for as long as the Application is installed. You may delete any individual record directly within the Application at any time.</p>
-    <p>To delete all data stored by TechFlow, uninstall the Application. On Android, you may also clear all Application data via Settings &rarr; Apps &rarr; TechFlow &rarr; Storage &rarr; Clear Data.</p>
-    <div class="warn-box">
-      Uninstalling the Application or clearing its data permanently removes all records and settings. This action cannot be undone. We strongly recommend creating a backup before performing any of these actions.
-    </div>
-  </section>
-
-  <!-- 8. Children -->
-  <section id="children">
-    <h2>8. Children's Privacy</h2>
-    <p>TechFlow is a professional business management tool intended for use by adults. The Application is not directed at children under the age of 16. If you believe a child has entered personal data into the Application, you may delete it directly within the Application or by uninstalling it.</p>
-  </section>
-
-  <!-- 9. Your Rights -->
-  <section id="rights">
-    <h2>9. Your Rights</h2>
-    <p>Depending on your country of residence, you may have rights under applicable data protection law (including the European General Data Protection Regulation — GDPR where applicable):</p>
-    <div class="table-wrap">
-      <table class="rights-table">
-        <thead><tr><th>Right</th><th>How to exercise it</th></tr></thead>
-        <tbody>
-          <tr><td>Access</td><td>All your data is visible directly within the Application.</td></tr>
-          <tr><td>Rectification</td><td>Edit any record directly within the Application.</td></tr>
-          <tr><td>Erasure</td><td>Delete individual records within the Application, or uninstall the Application to remove all data.</td></tr>
-          <tr><td>Portability</td><td>Use the Backup &amp; Restore feature to export a complete copy of your data in JSON format at any time.</td></tr>
-          <tr><td>Objection / Restriction</td><td>Because TechFlow does not transmit or process your data externally, there is no remote processing to restrict or object to.</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p>Because all data is stored locally on your device and is not accessible to TechFlow, we are not able to remotely access, modify, or delete your data on your behalf.</p>
-  </section>
-
-  <!-- 10. Security -->
-  <section id="security">
-    <h2>10. Security</h2>
-    <ul>
-      <li><strong>Local isolation:</strong> Data is stored in the Application's private sandbox, inaccessible to other applications.</li>
-      <li><strong>Backup integrity:</strong> Exported backups include a SHA-256 checksum to detect corruption or tampering.</li>
-      <li><strong>No remote attack surface:</strong> Because the Application has no server backend and no network communication, your data is not exposed to remote breaches or server-side vulnerabilities.</li>
-      <li><strong>Secure ID generation:</strong> All records use cryptographically generated unique identifiers via the device's secure random API.</li>
-    </ul>
-    <p>You are responsible for the physical security of your device and for the secure storage of any backup files you export.</p>
-  </section>
-
-  <!-- 11. Changes -->
-  <section id="changes">
-    <h2>11. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. When we do, we will revise the "Last reviewed" date at the top of this document and release a new version of the Application with the updated policy.</p>
-    <p>Your continued use of the Application after an updated Privacy Policy has been published constitutes your acceptance of the changes.</p>
-  </section>
-
-  <!-- 12. Contact -->
-  <section id="contact">
-    <h2>12. Contact</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us:</p>
-    <p>
-      <strong>TechFlow</strong><br />
-      Email: <a href="mailto:techflowlb@outlook.com">techflowlb@outlook.com</a><br />
-      Website: <a href="https://3nai-pro.github.io/techflow-legal/">https://3nai-pro.github.io/techflow-legal/</a>
-    </p>
-  </section>
-
+<div class="intro-banner"><strong>Privacy at a glance:</strong> TechFlow is an offline-first application. It does not operate a backend server and does not automatically transmit your business records to the publisher.</div>
+<section><h2>1. Publisher and Scope</h2><p>This Privacy Policy applies to the TechFlow mobile application (the “Application”). The Application is published by <strong>Naji Nassar, acting under the product name “TechFlow”</strong>, with correspondence location in <strong>Orsay, France</strong>. Contact: <a href="mailto:techflowlb@outlook.com">techflowlb@outlook.com</a>.</p><p>This notice explains how the Application handles information on your device and how the publisher handles any information you send directly by email.</p></section>
+<section><h2>2. Data Stored on Your Device</h2><p>TechFlow allows you to enter and manage business records such as client details, job records, quotations, invoices, payments, inventory, notes, settings, and business branding.</p><p>Structured application records are stored locally using on-device application storage. Files selected or generated by you, including logos, PDFs, spreadsheets, exports, backups, and temporary share files, may also be handled through the device file system and system document picker.</p><p>The publisher does not receive or remotely access these records.</p></section>
+<section><h2>3. Your Role When Entering Other People’s Data</h2><p>When you enter personal data relating to clients, employees, suppliers, or other individuals, you decide why and how that information is used. You or your business will normally be the data controller for that information.</p><p>You are responsible for having a lawful basis, giving any required privacy notices, limiting access, applying appropriate retention periods, keeping the information accurate, and responding to data-subject requests.</p></section>
+<section><h2>4. Permissions and Device Features</h2><p>Depending on the features you use, TechFlow may request access to contacts, calendar, notifications, files or documents, photos, camera, or sharing functions. Permissions are requested only when needed for the relevant feature and can be managed in your device settings.</p><p>Granting an operating-system permission is not the same as consenting to unrelated processing. TechFlow does not use permissions for advertising, profiling, or analytics.</p></section>
+<section><h2>5. Network Access and Third-Party Applications</h2><p>TechFlow does not operate a backend server and does not automatically transmit your business records to us. Network access may occur when you deliberately open a legal webpage, email application, messaging application, map, telephone link, or another third-party service.</p><p>When you choose to share an invoice, quotation, backup, message, or other content, the selected data is transferred to the third-party application you choose. That third party processes the information under its own privacy terms.</p></section>
+<section><h2>6. Backups, Exports, and Temporary Files</h2><p>Backup and export operations are user-initiated. Exported files are saved or shared to a location you select. They are not sent to the publisher.</p><div class="warn-box">Current backup files may not be encrypted. Anyone who obtains a copy may be able to read its contents. Store backups securely and delete obsolete copies.</div><p>Files stored outside the Application’s private storage, copies retained by third-party services, operating-system backups, and files shared to other applications are not removed automatically when you delete data inside TechFlow or uninstall the Application.</p></section>
+<section><h2>7. Retention and Deletion</h2><p>Application records remain on your device until you delete them, clear the Application’s data, or uninstall it. Temporary generated files may remain for a limited period depending on the operating system and sharing workflow. Exported files remain wherever you saved or shared them until you delete them there.</p></section>
+<section><h2>8. Security</h2><p>The operating system normally isolates the Application’s private storage from other applications. This protection may be reduced on rooted, jailbroken, compromised, debug-enabled, or otherwise insecure devices.</p><p>TechFlow uses cryptographically generated identifiers for records and integrity checks for supported backup workflows. These measures do not replace device security, secure backup storage, and appropriate access controls.</p></section>
+<section><h2>9. Information You Send to Support</h2><p>If you contact support, the publisher may receive your email address, message, and any information or attachments you choose to provide. This information is used to respond to your request, diagnose issues, protect the Application, and retain necessary support records. Do not send passwords, payment-card data, or unnecessary client information.</p></section>
+<section><h2>10. Children</h2><p>TechFlow is a professional business tool intended for adults and is not directed to children under 16.</p></section>
+<section><h2>11. Your Rights</h2><p>For data stored only on your device, you can access, correct, export, or delete it directly in the Application. Because the publisher cannot remotely access that data, the publisher generally cannot alter or delete it for you.</p><p>Requests concerning client or employee data entered by a TechFlow user should normally be directed to the business or professional who entered that data.</p><p>For personal data received directly by the publisher, such as support correspondence, you may request access, correction, deletion, restriction, or other rights available under applicable law by emailing <a href="mailto:techflowlb@outlook.com">techflowlb@outlook.com</a>. Where applicable, you may lodge a complaint with the competent supervisory authority. In France, this is the Commission nationale de l’informatique et des libertés (CNIL).</p></section>
+<section><h2>12. Changes to This Policy</h2><p>We may update this Privacy Policy to reflect changes to the Application, legal requirements, or our practices. The revised policy will display a new effective date. Where required by law, we will provide additional notice or request consent before introducing materially different processing.</p></section>
+<section><h2>13. Contact</h2><p><strong>Publisher:</strong> Naji Nassar, acting under the product name “TechFlow”<br/><strong>Correspondence location:</strong> Orsay, France<br/><strong>Email:</strong> <a href="mailto:techflowlb@outlook.com">techflowlb@outlook.com</a><br/><strong>Website:</strong> <a href="https://3nai-pro.github.io/techflow-legal/">https://3nai-pro.github.io/techflow-legal/</a></p></section>
 </div><!-- /content-wrap -->
-
 <footer>
-  <div class="footer-links">
-    <a href="https://3nai-pro.github.io/techflow-legal/">Home</a>
-    <a href="https://3nai-pro.github.io/techflow-legal/privacy-policy">Privacy Policy</a>
-    <a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">Terms &amp; Conditions</a>
-    <a href="mailto:techflowlb@outlook.com">Contact</a>
-  </div>
-  <div>&copy; 2026 TechFlow &mdash; TechFlow &middot; Your business assistant. Always in flow.</div>
+<div class="footer-links"><a href="https://3nai-pro.github.io/techflow-legal/">Home</a><a href="https://3nai-pro.github.io/techflow-legal/privacy-policy">Privacy Policy</a><a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">Terms &amp; Conditions</a><a href="https://3nai-pro.github.io/techflow-legal/legal-notice">Legal Notice</a><a href="mailto:techflowlb@outlook.com">Contact</a></div>
+<div>© 2026 Naji Nassar — TechFlow · Your business assistant. Always in flow.</div>
 </footer>
-
 </body>
 </html>
