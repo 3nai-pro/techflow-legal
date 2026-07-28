@@ -1,3 +1,0 @@
----
-title: TechFlow Privacy Policy
----
