@@ -182,15 +182,57 @@
       .header-inner nav { display: none; }
       .hero { padding: 40px 20px 36px; }
     }
-  </style>
-<link href="https://3nai-pro.github.io/techflow-legal/legal-notice" rel="canonical"/></head>
+  
+    header nav a[aria-current="page"] {
+      color: var(--white);
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 5px;
+    }
+    .contact-section {
+      max-width: 820px;
+      margin: 0 auto 48px;
+      padding: 24px;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: var(--radius);
+    }
+    .contact-section h2 { margin-bottom: 12px; }
+    .footer-contact { margin: 8px 0; }
+    footer .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 18px;
+    }
+    footer .footer-links a { margin: 0; }
+    @media (max-width: 600px) {
+      .header-inner {
+        height: auto;
+        min-height: 60px;
+        padding: 10px 0;
+        align-items: flex-start;
+      }
+      .header-inner nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 6px 12px;
+      }
+      .header-inner nav a {
+        margin-left: 0;
+        font-size: 0.78rem;
+      }
+    }
+    </style>
+<link href="https://3nai-pro.github.io/techflow-legal/legal-notice/" rel="canonical"/></head>
 <body>
 <header>
 <div class="header-inner">
 <a class="logo-link" href="https://3nai-pro.github.io/techflow-legal/">
 <img alt="TechFlow" height="30" src="../assets/techflow-logo-light.png" style="display:block;"/>
 </a>
-<nav><a href="https://3nai-pro.github.io/techflow-legal/">Home</a><a href="https://3nai-pro.github.io/techflow-legal/privacy-policy">Privacy Policy</a><a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">Terms &amp; Conditions</a><a href="https://3nai-pro.github.io/techflow-legal/legal-notice">Legal Notice</a></nav>
+<nav><a href="https://3nai-pro.github.io/techflow-legal/">Home</a><a href="https://3nai-pro.github.io/techflow-legal/privacy-policy/">Privacy Policy</a><a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions/">Terms &amp; Conditions</a><a aria-current="page" href="https://3nai-pro.github.io/techflow-legal/legal-notice/">Legal Notice</a><a href="mailto:techflowlb@outlook.com">Contact</a></nav>
 </div>
 </header>
 <div class="hero">
@@ -208,8 +250,24 @@
 <section><h2>7. Applicable Law</h2><p>This legal notice is governed by French law, subject to any mandatory law that applies in another jurisdiction.</p></section>
 <section><h2>8. Contact</h2><p>Questions concerning this site, the Application, or these legal documents may be sent to <a href="mailto:techflowlb@outlook.com">techflowlb@outlook.com</a>.</p></section>
 </div><!-- /content-wrap -->
-<footer>
-<div class="footer-links"><a href="https://3nai-pro.github.io/techflow-legal/">Home</a><a href="https://3nai-pro.github.io/techflow-legal/privacy-policy">Privacy Policy</a><a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions">Terms &amp; Conditions</a><a href="https://3nai-pro.github.io/techflow-legal/legal-notice">Legal Notice</a><a href="mailto:techflowlb@outlook.com">Contact</a></div>
+<section aria-labelledby="contact-heading" class="contact-section">
+<h2 id="contact-heading">Contact &amp; Support</h2>
+<p>For questions about TechFlow, these legal documents, or technical support, contact us at
+  <a href="mailto:techflowlb@outlook.com">techflowlb@outlook.com</a>.</p>
+<p>Correspondence location: <strong>Orsay, France</strong>.</p>
+</section><footer>
+<div class="footer-links">
+<a href="https://3nai-pro.github.io/techflow-legal/">Home</a>
+<a href="https://3nai-pro.github.io/techflow-legal/privacy-policy/">Privacy Policy</a>
+<a href="https://3nai-pro.github.io/techflow-legal/terms-and-conditions/">Terms &amp; Conditions</a>
+<a href="https://3nai-pro.github.io/techflow-legal/legal-notice/">Legal Notice</a>
+<a href="mailto:techflowlb@outlook.com">Contact &amp; Support</a>
+</div>
+<div class="footer-contact">
+    Questions or support requests:
+    <a href="mailto:techflowlb@outlook.com">techflowlb@outlook.com</a>
+</div>
+<div>Publisher: Naji Nassar, acting under the product name TechFlow · Orsay, France</div>
 <div>© 2026 Naji Nassar — TechFlow · Your business assistant. Always in flow.</div>
 </footer>
 </body>
