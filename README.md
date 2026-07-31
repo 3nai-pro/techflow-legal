@@ -15,3 +15,9 @@ Static GitHub Pages package for `https://3nai-pro.github.io/techflow-legal/`.
    - `/contact/`
 
 Updated: 30 July 2026.
+
+
+## 31 July 2026 update
+- Added a visible Home link to every legal subpage and footer.
+- Replaced the header logo with the white transparent dark-background version.
+- Renamed the logo asset to `techflow-logo-horizontal-light-v2.png` and added a cache-busting query string.
