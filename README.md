@@ -21,3 +21,10 @@ Updated: 30 July 2026.
 - Added a visible Home link to every legal subpage and footer.
 - Replaced the header logo with the white transparent dark-background version.
 - Renamed the logo asset to `techflow-logo-horizontal-light-v2.png` and added a cache-busting query string.
+
+
+## Data deletion URL
+
+Use this URL in Google Play Console:
+
+`https://3nai-pro.github.io/techflow-legal/delete-my-data/`
