@@ -1,30 +1,22 @@
-# TechFlow Legal Website
+# TechFlow Legal Website — Support Center Edition
 
-Static GitHub Pages package for `https://3nai-pro.github.io/techflow-legal/`.
+Static GitHub Pages website for TechFlow by 3NAI Solutions.
 
-## Publish
+## Included pages
 
-1. Delete or replace the existing repository contents.
-2. Upload every file and folder in this package to the repository root.
-3. Keep GitHub Pages configured for the root of the publishing branch.
-4. Verify these URLs:
-   - `/`
-   - `/privacy-policy/`
-   - `/terms-and-conditions/`
-   - `/export-compliance/`
-   - `/contact/`
+- Home
+- Privacy Policy
+- Terms and Conditions
+- Export Compliance
+- Delete My Data
+- TechFlow Support Center
 
-Updated: 30 July 2026.
+## Contact form
 
+The Support Center uses FormSubmit with `techflowlb@outlook.com`.
 
-## 31 July 2026 update
-- Added a visible Home link to every legal subpage and footer.
-- Replaced the header logo with the white transparent dark-background version.
-- Renamed the logo asset to `techflow-logo-horizontal-light-v2.png` and added a cache-busting query string.
+After the first test submission, FormSubmit sends a one-time activation email to that inbox. Open the email and confirm the activation link before relying on the form for production support messages.
 
+## Deployment
 
-## Data deletion URL
-
-Use this URL in Google Play Console:
-
-`https://3nai-pro.github.io/techflow-legal/delete-my-data/`
+Upload the contents of this archive to the root of the `3nai-pro/techflow-legal` repository and push to the `main` branch.
